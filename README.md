@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Custom Wardrobes</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#f5f5f5;
+color:#333;
+}
+
+header{
+background:#111;
+color:white;
+padding:50px 20px;
+text-align:center;
+}
+
+header h1{
+font-size:42px;
+margin-bottom:10px;
+}
+
+header p{
+font-size:18px;
+opacity:.9;
+}
+
+.container{
+width:90%;
+max-width:1200px;
+margin:auto;
+padding:50px 0;
+}
+
+h2{
+text-align:center;
+margin-bottom:30px;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:25px;
+}
+
+.gallery img{
+width:100%;
+height:350px;
+object-fit:cover;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,.2);
+transition:.3s;
+}
+
+.gallery img:hover{
+transform:scale(1.03);
+}
+
+.features{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+margin-top:50px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:10px;
+text-align:center;
+box-shadow:0 5px 12px rgba(0,0,0,.1);
+}
+
+.contact{
+margin-top:60px;
+background:#222;
+color:white;
+padding:40px;
+border-radius:10px;
+text-align:center;
+}
+
+.contact h2{
+margin-bottom:20px;
+}
+
+.contact p{
+margin:10px 0;
+font-size:18px;
+}
+
+.button{
+display:inline-block;
+margin-top:20px;
+padding:15px 30px;
+background:#28a745;
+color:white;
+text-decoration:none;
+border-radius:5px;
+font-size:18px;
+}
+
+footer{
+text-align:center;
+padding:25px;
+background:#111;
+color:white;
+margin-top:50px;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+<h1>Custom Built-in Wardrobes</h1>
+<p>Quality craftsmanship • Modern designs • Professional installation</p>
+</header>
+
+<div class="container">
+
+<h2>Our Recent Work</h2>
+
+<div class="gallery">
+<img src="wardrobe1.jpg" alt="Wardrobe Design 1">
+<img src="wardrobe2.jpg" alt="Wardrobe Design 2">
+<img src="wardrobe3.jpg" alt="Wardrobe Design 3">
+<img src="wardrobe4.jpg" alt="Wardrobe Design 4">
+<img src="wardrobe5.jpg" alt="Wardrobe Design 5">
+<img src="wardrobe6.jpg" alt="Wardrobe Design 6">
+<img src="wardrobe7.jpg" alt="Wardrobe Design 7">
+<img src="wardrobe8.jpg" alt="Wardrobe Design 8">
+<img src="wardrobe9.jpg" alt="Wardrobe Design 9">
+<img src="wardrobe10.jpg" alt="Wardrobe Design 10">
+<img src="wardrobe11.jpg" alt="Wardrobe Design 11">
+
+</div>
+
+<div class="features">
+
+<div class="card">
+<h3>Custom Designs</h3>
+<p>Made to fit your room perfectly.</p>
+</div>
+
+<div class="card">
+<h3>Quality Materials</h3>
+<p>Built using durable, high-quality boards and fittings.</p>
+</div>
+
+<div class="card">
+<h3>Professional Installation</h3>
+<p>Neat workmanship and attention to detail.</p>
+</div>
+
+<div class="card">
+<h3>Affordable Pricing</h3>
+<p>Excellent value without compromising quality.</p>
+</div>
+
+</div>
+
+<div class="contact">
+<h2>Request a Quote</h2>
+
+<p><strong>Phone:</strong> 079 221 6085</p>
+
+<p><strong>WhatsApp:</strong> 079 221 6085</p>
+
+<p><strong>Email:</strong> mandisamanz@gmail.com </p>
+
+<a class="button" href="https://wa.me/079 221 6085">
+Message Us on WhatsApp
+</a>
+
+</div>
+
+</div>
+
+<footer>
+© 2026 Custom Wardrobes. All Rights Reserved.
+</footer>
+
+</body>
+</html>
